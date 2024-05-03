@@ -1,16 +1,19 @@
 object EvenNumber
 {
-	def main(args: Array[String])
-	{
-		println("Enter a number : ");
-		val num = scala.io.StdIn.readInt();
+	def main(args: Array[String]):Unit={
+	
+		println("Enter a number : ")
+		val num = scala.io.StdIn.readInt()
+
 		if(num % 2 == 0)
 		{
-			println("Given number is Even");
+			println("Given Number is Even")
 		}
 		else
 		{
-			println("Given number is Odd");
+			println("Given Number is Odd")
 		}
 	}
+
+	main(Array())
 }
